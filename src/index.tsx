@@ -1,14 +1,16 @@
-import app from 'apprun';
+import React from 'react';
+import ReactDom from 'react-dom';
+import styled from 'styled-components';
 
-const state = 'Hello world';
+import Home from './pages/home';
 
-const view = state => (
-  <div>
-    <h1>{state}</h1>
-  </div>
+function App() {
+  return (
+    <Home />
+  );
+}
+
+ReactDom.render(
+  <App />,
+  document.getElementById('app')
 );
-
-const update = {};
-
-app.start('app', state, view, update);
-
