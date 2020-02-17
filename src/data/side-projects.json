@@ -1,0 +1,22 @@
+[
+  {
+    "name": "JS-Webcam",
+    "description": "A simple core polyfill for access to user media cameras."
+  },
+  {
+    "name": "JS-Capitalize",
+    "description": "Capitalize the first letter of a string, or all words in a string."
+  },
+  {
+    "name": "JS-Redux-Translate",
+    "description": "A simple package for managing the locales with redux."
+  },
+  {
+    "name": "JS-Aspect-Ratio",
+    "description": "A simple package for calculating the aspect ratio."
+  },
+  {
+    "name": "Space-shiipper",
+    "description": "Space version of snake game built in react native."
+  }
+]

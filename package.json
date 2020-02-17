@@ -31,9 +31,11 @@
   },
   "dependencies": {
     "components": "^0.1.0",
+    "data": "^0.6.1",
     "pages": "0.0.16"
   },
   "alias": {
-    "components": "./src/components"
+    "components": "./src/components",
+    "data": "./src/data"
   }
 }

@@ -1,36 +1,29 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { experience } from 'data';
 import { Heading2 } from 'components/title';
 
 function WorkExperience() {
-  return (
-    <>
-      <Heading2>
-        Senior Front End developer,  Globant, Jul 2018 - Current, Bog-Col.
-      </Heading2>
-      <p>
-        IT software development company, it's one of the biggest solution providers in Latam.
-      </p>
-      <UL>
-        <li>
-          Member of a south america regional team, working remotely with Scrum methodology.
-        </li>
-        <li>
-          Developed & maintained an on-demand streaming video service “Hallmark Movies Now” from the beginning to production stage and build in Next JS, React, Redux, Epics, Sagas, Redux Forms, Formik, Normalizr, Reselect, Axios, Jest, Enzyme and lastly in React Hooks.
-        </li>
-        <li>
-          Reduced application’s size by 40% less, using bundler analyzer and lazy loading modules strategy.
-        </li>
-        <li>
-          Created the complete sign-up path integrated with 3 party payment provider “Vindicia”.
-        </li>
-        <li>
-          Introduced React Hooks in the project with improvements in code reusing.
-        </li>
-      </UL>
-    </>
-  );
+  return experience.map(item => {
+    const { title, company, start, end, city, description, achivements } = item;
+    return (
+      <div key={company}>
+        <Heading2>
+          {title}, {company}, {start} - {end}, {city}.
+        </Heading2>
+        <p>
+          {description}
+        </p>
+        <UL>
+          {achivements.map(text => (
+            <li key={text}>{text}</li>
+            )
+          )}
+        </UL>
+      </div>
+    );
+  });
 }
 
 const UL = styled.ul`

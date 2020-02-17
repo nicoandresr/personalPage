@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import ContactInfo from 'components/contact-info';
 import Header from 'components/header';
 import Heading1 from 'components/title';
+import PreviousExperiences from 'components/previous-exp';
+import SideProjects from 'components/side-projects';
 import WorkExperience from 'components/work-experience';
 
 function Home() {
@@ -17,6 +19,14 @@ function Home() {
         <Heading1>work experience</Heading1>
 
         <WorkExperience />
+
+        <Heading1>previous experiences <span>.Net Web Developer</span></Heading1>
+
+        <PreviousExperiences />
+
+        <Heading1>side projects</Heading1>
+
+        <SideProjects />
       </Content>
     </Background>
   );

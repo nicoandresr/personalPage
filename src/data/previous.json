@@ -1,0 +1,44 @@
+[
+  {
+    "company": "Periferia IT Group",
+    "start": "May 2013",
+    "end": "Aug 2014",
+    "city": "Bog-Col"
+  },
+  {
+    "company": "Amaltea Engineering",
+    "start": "Sep 2012",
+    "end": "May 2013",
+    "city": "Bog-Col"
+  },
+  {
+    "company": "Panda Consulting",
+    "start": "Jul 2012",
+    "end": "Aug 2012",
+    "city": "Bog-Col"
+  },
+  {
+    "company": "Evertec",
+    "start": "Jun 2011",
+    "end": "Jul 2012",
+    "city": "Bog-Col"
+  },
+  {
+    "company": "Primestone",
+    "start": "Nov 2010",
+    "end": "Jun 2011",
+    "city": "Bog-Col"
+  },
+  {
+    "company": "CM-Logic",
+    "start": "May 2010",
+    "end": "Nov 2010",
+    "city": "Bog-Col"
+  },
+  {
+    "company": "AutoIDsystems",
+    "start": "Jan 2010",
+    "end": "May 2010",
+    "city": "Bog-Col"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Senior Front End developer",
+    "company": "Globant",
+    "start": "07-01-2018",
+    "end": "current",
+    "city": "Bog-Col",
+    "description": "IT software development company, it's one of the biggest solution providers in Latam.",
+    "achivements": [
+      "Member of a south america regional team, working remotely with Scrum methodology.",
+      "Developed & maintained an on-demand streaming video service “Hallmark Movies Now” from the beginning to production stage and build in Next JS, React, Redux, Epics, Sagas, Redux Forms, Formik, Normalizr, Reselect, Axios, Jest, Enzyme and lastly in React Hooks.",
+      "Reduced application’s size by 40% less, using bundler analyzer and lazy loading modules strategy.",
+      "Created the complete sign-up path integrated with 3 party payment provider 'Vindicia'.",
+      "Introduced React Hooks in the project with improvements in code reusing."
+    ]
+  },
+  {
+    "title": "Senior Front End developer",
+    "company": "Youse",
+    "start": "05-01-2017",
+    "end": "07-01-2018",
+    "city": "Bog-Col",
+    "description": "Youse is a new 100% digital company in the assurance business in Colombia market’s.",
+    "achivements": [
+      "Youse is a new 100% digital company in the assurance business in Colombia market’s.",
+      "Builded a web solution for facial recognition in the enrollment path, with React and WebRTC api.",
+      "Designed and built the project architecture for error handler.",
+      "Implemented the unit-test strategy with Jest, Chai and Enzyme.",
+      "Integrated Google’s Vision API and Amazon Rekognition for image analysis."
+    ]
+  },
+  {
+    "title": "Senior .Net Full Stack developer",
+    "company": "Bizagi",
+    "start": "10-01-2014",
+    "end": "05-01-2017",
+    "city": "Bog-Col",
+    "description": "Bizagi is the world's leading company in BPM (Business Process Modeling)  market.",
+    "achivements": [
+      "Developed & maintained fully Bizagi Studio product in C# language.",
+      "Migrate old win-forms to Angular 1 and Typescript in the desktop app using CefSharp library for interpreting the HTML-Javascript in win-forms.",
+      "Developed NodeJS server for a project dashboard app in Angular 1 and Typescript.",
+      "Worked with Windows Azure for continuous integration.",
+      "Worked with Protractor and Jasmine for front-end unit test."
+    ]
+  }
+]
