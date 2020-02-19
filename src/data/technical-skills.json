@@ -1,0 +1,46 @@
+[
+  {
+    "experience": "1+ years",
+    "items": [
+      "Formik",
+      "Redux Sagas",
+      "Redux Epics",
+      "Immutable js",
+      "Immer",
+      "Normalizer",
+      "React Hooks"
+    ]
+  },
+  {
+    "experience": "3+ years",
+    "items": [
+      "React",
+      "Redux",
+      "Redux-Forms",
+      "Webpack",
+      "Git"
+    ]
+  },
+  {
+    "experience": "5+ years",
+    "items": [
+      "NodeJs",
+      "Express",
+      "ES6"
+    ]
+  },
+  {
+    "experience": "9+ years",
+    "items": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  },
+  {
+    "experience": "Studying",
+    "items": [
+      "React Native"
+    ]
+  }
+]
